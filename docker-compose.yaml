@@ -2,12 +2,19 @@ services:
   web:
     build:
       dockerfile: Dockerfile
+      context: ./webservice
+  web2:
+    build:
+      dockerfile: Dockerfile
+      context: ./webservice
 
   checker:
     build:
-      dockerfile: Dockerfile.curl
+      dockerfile: Dockerfile
+      context: ./tester
     environment:
       - ENDPOINT_1=web:80
+      - ENDPOINT_2=web2:80
       - HEST=egern
     depends_on:
       - web

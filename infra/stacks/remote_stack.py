@@ -1,4 +1,4 @@
-from aws_cdk import Stack, aws_lambda as l_func, CfnOutput as static
+from aws_cdk import Stack, Duration, aws_lambda as l_func, CfnOutput as static
 import os
 import logging
 from constructs import Construct
@@ -35,6 +35,7 @@ class Remote(Stack):
             environment={
                 "CONTROL_IP": config.control_ip,
             },
+            timeout=Duration.seconds(30),
         )
 
         self.log_group = static(

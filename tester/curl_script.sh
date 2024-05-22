@@ -14,7 +14,7 @@ until $(curl --output /dev/null --silent --fail $ENDPOINT_1/); do
       exit 1
     fi
 
-    printf '.'
+    printf '.\n'
     attempt_counter=$(($attempt_counter+1))
     sleep 5
 done
@@ -22,6 +22,7 @@ fi
 
 # Loop over this for endpoints:
 for ENDPOINT in $ENDPOINT_1 $ENDPOINT_2; do
+  echo "Timing for endpoint $ENDPOINT"
 
   echo "TIMING FOR BIG ENDPOINT:"
   curl -w "@curl-format.txt" -o /dev/null $ENDPOINT/lorem_on_hit
@@ -32,4 +33,9 @@ for ENDPOINT in $ENDPOINT_1 $ENDPOINT_2; do
   echo "TIMING FOR SMALL ENDPOINT:"
   curl -w "@curl-format.txt" -o /dev/null $ENDPOINT/
 
+  echo "-------------------------------"
+
 done
+
+echo "Done"
+exit 0
