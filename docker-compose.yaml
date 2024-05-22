@@ -1,0 +1,14 @@
+services:
+  web:
+    build:
+      dockerfile: Dockerfile
+
+  checker:
+    build:
+      dockerfile: Dockerfile.curl
+    environment:
+      - ENDPOINT_1=web:80
+      - HEST=egern
+    depends_on:
+      - web
+    command: ["./curl_script.sh"]
