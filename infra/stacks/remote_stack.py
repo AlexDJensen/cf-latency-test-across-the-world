@@ -3,8 +3,6 @@ import os
 import logging
 from constructs import Construct
 
-from infra.custom.config import DeploymentConfig
-
 
 class Remote(Stack):
     """
@@ -15,7 +13,6 @@ class Remote(Stack):
         self,
         scope: Construct,
         construct_id: str,
-        config: DeploymentConfig,
         **kwargs,
     ):
         super().__init__(scope, construct_id, **kwargs)
@@ -32,9 +29,6 @@ class Remote(Stack):
             self,
             "Func",
             code=func_code,
-            environment={
-                "CONTROL_IP": config.control_ip,
-            },
             timeout=Duration.seconds(30),
         )
 
