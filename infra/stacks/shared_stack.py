@@ -72,7 +72,8 @@ class WebServiceStack(Stack):
                 origin=cfo.LoadBalancerV2Origin(
                     load_balancer=self.service.load_balancer,
                     protocol_policy=cf.OriginProtocolPolicy.HTTP_ONLY,
-                )
+                ),
+                cache_policy=cf.CachePolicy.CACHING_DISABLED,
             ),
         )
 
