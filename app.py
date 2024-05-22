@@ -1,7 +1,7 @@
 import aws_cdk as cdk
 
 from infra.stacks.remote_stack import Remote
-from infra.stacks.shared_stack import WebServiceStack
+from infra.stacks.web_service_stack import WebServiceStack
 
 app = cdk.App()
 
