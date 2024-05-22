@@ -1,0 +1,577 @@
+timestamp,message
+1716409184260,"Timing for endpoint <REDACTED-LOAD-BALANCER>.eu-west-1.elb.amazonaws.com
+"
+1716409184260,"TIMING FOR BIG ENDPOINT:
+"
+1716409185124,"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+"
+1716409185124,"Dload  Upload   Total   Spent    Left  Speed
+"
+1716409185253,0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+1716409186269,"81 1960k   81 1594k    0     0  1394k      0  0:00:01  0:00:01 --:--:-- 1394k
+100 1960k  100 1960k    0     0  1710k      0  0:00:01  0:00:01 --:--:-- 1710k
+"
+1716409186269,"time_namelookup:  0.002787s
+"
+1716409186271,"time_connect:  0.129168s
+"
+1716409186271,"time_appconnect:  0.000000s
+"
+1716409186271,"time_pretransfer:  0.129347s
+"
+1716409186271,"time_redirect:  0.000000s
+"
+1716409186271,"time_starttransfer:  0.259681s
+"
+1716409186271,"size_download: 2007100b
+"
+1716409186271,"size_header:   192b
+"
+1716409186271,'"----------
+"
+1716409186271,"time_total:  1.145720s
+"
+1716409186271,"TIMING FOR BIG PREPPED ENDPOINT:
+"
+1716409186275,"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+"
+1716409186275,"Dload  Upload   Total   Spent    Left  Speed
+"
+1716409187420,"0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+ 23 1960k   23  459k    0     0   515k      0  0:00:03 --:--:--  0:00:03  515k
+100 1960k  100 1960k    0     0  1711k      0  0:00:01  0:00:01 --:--:-- 1711k
+"
+1716409187420,"time_namelookup:  0.000641s
+"
+1716409187420,"time_connect:  0.127277s
+"
+1716409187420,"time_appconnect:  0.000000s
+"
+1716409187420,"time_pretransfer:  0.127344s
+"
+1716409187420,"time_redirect:  0.000000s
+"
+1716409187420,"time_starttransfer:  0.257505s
+"
+1716409187420,"size_download: 2007100b
+"
+1716409187420,"size_header:   192b
+"
+1716409187420,'"----------
+"
+1716409187420,"time_total:  1.145455s
+"
+1716409187421,"TIMING FOR SMALL ENDPOINT:
+"
+1716409187424,"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+"
+1716409187425,"Dload  Upload   Total   Spent    Left  Speed
+"
+1716409187681,"0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100    22  100    22    0     0     85      0 --:--:-- --:--:-- --:--:--    85
+"
+1716409187681,"time_namelookup:  0.000570s
+"
+1716409187682,"time_connect:  0.128092s
+"
+1716409187682,"time_appconnect:  0.000000s
+"
+1716409187682,"time_pretransfer:  0.128163s
+"
+1716409187682,"time_redirect:  0.000000s
+"
+1716409187682,"time_starttransfer:  0.256955s
+"
+1716409187682,"size_download: 22b
+"
+1716409187682,"size_header:   178b
+"
+1716409187682,'"----------
+"
+1716409187682,"time_total:  0.257008s
+"
+1716409187682,'"-------------------------------
+"
+1716409187682,"Timing for endpoint <REDACTED-CLOUDFRONT>
+"
+1716409187682,"TIMING FOR BIG ENDPOINT:
+"
+1716409187686,"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+"
+1716409187686,"Dload  Upload   Total   Spent    Left  Speed
+"
+1716409187709,"0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1960k  100 1960k    0     0  82.4M      0 --:--:-- --:--:-- --:--:-- 83.2M
+"
+1716409187709,"time_namelookup:  0.006252s
+"
+1716409187709,"time_connect:  0.007371s
+"
+1716409187709,"time_appconnect:  0.000000s
+"
+1716409187709,"time_pretransfer:  0.007417s
+"
+1716409187709,"time_redirect:  0.000000s
+"
+1716409187709,"time_starttransfer:  0.011021s
+"
+1716409187709,"size_download: 2007100b
+"
+1716409187709,"size_header:   421b
+"
+1716409187709,'"----------
+"
+1716409187709,"time_total:  0.023209s
+"
+1716409187710,"TIMING FOR BIG PREPPED ENDPOINT:
+"
+1716409187713,"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+"
+1716409187713,"Dload  Upload   Total   Spent    Left  Speed
+"
+1716409187726,"0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1960k  100 1960k    0     0   146M      0 --:--:-- --:--:-- --:--:--  147M
+"
+1716409187726,"time_namelookup:  0.000574s
+"
+1716409187727,"time_connect:  0.001676s
+"
+1716409187727,"time_appconnect:  0.000000s
+"
+1716409187727,"time_pretransfer:  0.001705s
+"
+1716409187727,"time_redirect:  0.000000s
+"
+1716409187727,"time_starttransfer:  0.004920s
+"
+1716409187727,"size_download: 2007100b
+"
+1716409187727,"size_header:   421b
+"
+1716409187727,'"----------
+"
+1716409187727,"time_total:  0.013091s
+"
+1716409187727,"TIMING FOR SMALL ENDPOINT:
+"
+1716409187730,"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+"
+1716409187730,"Dload  Upload   Total   Spent    Left  Speed
+"
+1716409187734,"0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100    22  100    22    0     0   5524      0 --:--:-- --:--:-- --:--:--  7333
+"
+1716409187734,"time_namelookup:  0.000571s
+"
+1716409187735,"time_connect:  0.001686s
+"
+1716409187735,"time_appconnect:  0.000000s
+"
+1716409187735,"time_pretransfer:  0.001718s
+"
+1716409187735,"time_redirect:  0.000000s
+"
+1716409187735,"time_starttransfer:  0.003953s
+"
+1716409187735,"size_download: 22b
+"
+1716409187735,"size_header:   384b
+"
+1716409187735,'"----------
+"
+1716409187735,"time_total:  0.003982s
+"
+1716409187735,'"-------------------------------
+"
+1716409187735,"Done
+"
+1716409187735,"INIT_REPORT Init Duration: 3554.14 ms	Phase: init	Status: error	Error Type: Runtime.ExitError
+"
+1716409187759,"Timing for endpoint <REDACTED-LOAD-BALANCER>.eu-west-1.elb.amazonaws.com
+"
+1716409187759,"TIMING FOR BIG ENDPOINT:
+"
+1716409187818,"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+"
+1716409187818,"Dload  Upload   Total   Spent    Left  Speed
+"
+1716409188968,"0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  2 1960k    2 43248    0     0   104k      0  0:00:18 --:--:--  0:00:18  109k
+100 1960k  100 1960k    0     0  1676k      0  0:00:01  0:00:01 --:--:-- 1704k
+"
+1716409188968,"time_namelookup:  0.019652s
+"
+1716409188969,"time_connect:  0.146778s
+"
+1716409188969,"time_appconnect:  0.000000s
+"
+1716409188969,"time_pretransfer:  0.146848s
+"
+1716409188969,"time_redirect:  0.000000s
+"
+1716409188969,"time_starttransfer:  0.277501s
+"
+1716409188969,"size_download: 2007100b
+"
+1716409188969,"size_header:   192b
+"
+1716409188969,'"----------
+"
+1716409188969,"time_total:  1.169345s
+"
+1716409188969,"TIMING FOR BIG PREPPED ENDPOINT:
+"
+1716409189018,"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+"
+1716409189018,"Dload  Upload   Total   Spent    Left  Speed
+"
+1716409190169,"0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0 1960k    0 13032    0     0  44257      0  0:00:45 --:--:--  0:00:45 50316
+ 82 1960k   82 1620k    0     0  1366k      0  0:00:01  0:00:01 --:--:-- 1409k
+100 1960k  100 1960k    0     0  1651k      0  0:00:01  0:00:01 --:--:-- 1702k
+"
+1716409190169,"time_namelookup:  0.036759s
+"
+1716409190169,"time_connect:  0.164201s
+"
+1716409190169,"time_appconnect:  0.000000s
+"
+1716409190169,"time_pretransfer:  0.164283s
+"
+1716409190169,"time_redirect:  0.000000s
+"
+1716409190169,"time_starttransfer:  0.294413s
+"
+1716409190169,"size_download: 2007100b
+"
+1716409190169,"size_header:   192b
+"
+1716409190169,'"----------
+"
+1716409190169,"time_total:  1.187046s
+"
+1716409190170,"TIMING FOR SMALL ENDPOINT:
+"
+1716409190218,"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+"
+1716409190218,"Dload  Upload   Total   Spent    Left  Speed
+"
+1716409190476,"0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100    22  100    22    0     0     74      0 --:--:-- --:--:-- --:--:--    85
+"
+1716409190476,"time_namelookup:  0.037239s
+"
+1716409190476,"time_connect:  0.165019s
+"
+1716409190476,"time_appconnect:  0.000000s
+"
+1716409190476,"time_pretransfer:  0.165089s
+"
+1716409190476,"time_redirect:  0.000000s
+"
+1716409190476,"time_starttransfer:  0.294350s
+"
+1716409190476,"size_download: 22b
+"
+1716409190476,"size_header:   178b
+"
+1716409190476,'"----------
+"
+1716409190476,"time_total:  0.294414s
+"
+1716409190477,'"-------------------------------
+"
+1716409190477,"Timing for endpoint <REDACTED-CLOUDFRONT>
+"
+1716409190477,"TIMING FOR BIG ENDPOINT:
+"
+1716409190498,"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+"
+1716409190498,"Dload  Upload   Total   Spent    Left  Speed
+"
+1716409190540,"0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1960k  100 1960k    0     0  31.9M      0 --:--:-- --:--:-- --:--:-- 46.6M
+"
+1716409190540,"time_namelookup:  0.018533s
+"
+1716409190540,"time_connect:  0.038304s
+"
+1716409190540,"time_appconnect:  0.000000s
+"
+1716409190540,"time_pretransfer:  0.038395s
+"
+1716409190540,"time_redirect:  0.000000s
+"
+1716409190540,"time_starttransfer:  0.040877s
+"
+1716409190540,"size_download: 2007100b
+"
+1716409190540,"size_header:   421b
+"
+1716409190540,'"----------
+"
+1716409190540,"time_total:  0.059948s
+"
+1716409190541,"TIMING FOR BIG PREPPED ENDPOINT:
+"
+1716409190598,"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+"
+1716409190598,"Dload  Upload   Total   Spent    Left  Speed
+"
+1716409190638,"0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1960k  100 1960k    0     0  24.9M      0 --:--:-- --:--:-- --:--:-- 47.8M
+"
+1716409190638,"time_namelookup:  0.036878s
+"
+1716409190639,"time_connect:  0.038169s
+"
+1716409190639,"time_appconnect:  0.000000s
+"
+1716409190639,"time_pretransfer:  0.038222s
+"
+1716409190639,"time_redirect:  0.000000s
+"
+1716409190639,"time_starttransfer:  0.056612s
+"
+1716409190639,"size_download: 2007100b
+"
+1716409190639,"size_header:   421b
+"
+1716409190639,'"----------
+"
+1716409190639,"time_total:  0.076574s
+"
+1716409190639,"TIMING FOR SMALL ENDPOINT:
+"
+1716409190698,"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+"
+1716409190698,"Dload  Upload   Total   Spent    Left  Speed
+"
+1716409190718,"0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100    22  100    22    0     0    557      0 --:--:-- --:--:-- --:--:--  1100
+"
+1716409190718,"time_namelookup:  0.019818s
+"
+1716409190719,"time_connect:  0.021086s
+"
+1716409190719,"time_appconnect:  0.000000s
+"
+1716409190719,"time_pretransfer:  0.021138s
+"
+1716409190719,"time_redirect:  0.000000s
+"
+1716409190719,"time_starttransfer:  0.039440s
+"
+1716409190719,"size_download: 22b
+"
+1716409190719,"size_header:   384b
+"
+1716409190719,'"----------
+"
+1716409190719,"time_total:  0.039482s
+"
+1716409190719,'"-------------------------------
+"
+1716409190719,"Done
+"
+1716409190719,"INIT_REPORT Init Duration: 2967.28 ms	Phase: invoke	Status: error	Error Type: Runtime.ExitError
+"
+1716409190720,"START RequestId: 633a3f5f-b94d-4cf1-b71e-c3c1e804f81c Version: $LATEST
+"
+1716409190760,"RequestId: 633a3f5f-b94d-4cf1-b71e-c3c1e804f81c Error: Runtime exited without providing a reason
+Runtime.ExitError
+"
+1716409190760,"END RequestId: 633a3f5f-b94d-4cf1-b71e-c3c1e804f81c
+"
+1716409190760,"REPORT RequestId: 633a3f5f-b94d-4cf1-b71e-c3c1e804f81c	Duration: 3006.46 ms	Billed Duration: 3007 ms	Memory Size: 128 MB	Max Memory Used: 4 MB	
+"
+1716409190798,"Timing for endpoint <REDACTED-LOAD-BALANCER>.eu-west-1.elb.amazonaws.com
+"
+1716409190798,"TIMING FOR BIG ENDPOINT:
+"
+1716409190804,"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+"
+1716409190805,"Dload  Upload   Total   Spent    Left  Speed
+"
+1716409191952,"0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  1 1960k    1 31856    0     0  82526      0  0:00:24 --:--:--  0:00:24 82528
+100 1960k  100 1960k    0     0  1706k      0  0:00:01  0:00:01 --:--:-- 1707k
+"
+1716409191952,"time_namelookup:  0.003052s
+"
+1716409191952,"time_connect:  0.129673s
+"
+1716409191952,"time_appconnect:  0.000000s
+"
+1716409191952,"time_pretransfer:  0.129756s
+"
+1716409191952,"time_redirect:  0.000000s
+"
+1716409191952,"time_starttransfer:  0.259540s
+"
+1716409191952,"size_download: 2007100b
+"
+1716409191952,"size_header:   192b
+"
+1716409191952,'"----------
+"
+1716409191952,"time_total:  1.148727s
+"
+1716409191952,"TIMING FOR BIG PREPPED ENDPOINT:
+"
+1716409191956,"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+"
+1716409191956,"Dload  Upload   Total   Spent    Left  Speed
+"
+1716409193111,"0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0 1960k    0 13032    0     0  50246      0  0:00:39 --:--:--  0:00:39 50123
+100 1960k  100 1960k    0     0  1697k      0  0:00:01  0:00:01 --:--:-- 1698k
+"
+1716409193111,"time_namelookup:  0.000610s
+"
+1716409193111,"time_connect:  0.128373s
+"
+1716409193111,"time_appconnect:  0.000000s
+"
+1716409193111,"time_pretransfer:  0.128455s
+"
+1716409193111,"time_redirect:  0.000000s
+"
+1716409193111,"time_starttransfer:  0.259320s
+"
+1716409193111,"size_download: 2007100b
+"
+1716409193111,"size_header:   192b
+"
+1716409193111,'"----------
+"
+1716409193111,"time_total:  1.154909s
+"
+1716409193112,"TIMING FOR SMALL ENDPOINT:
+"
+1716409193115,"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+"
+1716409193115,"Dload  Upload   Total   Spent    Left  Speed
+"
+1716409193370,"0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100    22  100    22    0     0     86      0 --:--:-- --:--:-- --:--:--    86
+"
+1716409193370,"time_namelookup:  0.000604s
+"
+1716409193371,"time_connect:  0.127113s
+"
+1716409193371,"time_appconnect:  0.000000s
+"
+1716409193371,"time_pretransfer:  0.127271s
+"
+1716409193371,"time_redirect:  0.000000s
+"
+1716409193371,"time_starttransfer:  0.254943s
+"
+1716409193371,"size_download: 22b
+"
+1716409193371,"size_header:   178b
+"
+1716409193371,'"----------
+"
+1716409193371,"time_total:  0.254984s
+"
+1716409193371,'"-------------------------------
+"
+1716409193371,"Timing for endpoint <REDACTED-CLOUDFRONT>
+"
+1716409193371,"TIMING FOR BIG ENDPOINT:
+"
+1716409193375,"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+"
+1716409193375,"Dload  Upload   Total   Spent    Left  Speed
+"
+1716409193388,"0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1960k  100 1960k    0     0   147M      0 --:--:-- --:--:-- --:--:--  159M
+"
+1716409193388,"time_namelookup:  0.000481s
+"
+1716409193388,"time_connect:  0.001685s
+"
+1716409193388,"time_appconnect:  0.000000s
+"
+1716409193388,"time_pretransfer:  0.001739s
+"
+1716409193388,"time_redirect:  0.000000s
+"
+1716409193388,"time_starttransfer:  0.005308s
+"
+1716409193388,"size_download: 2007100b
+"
+1716409193388,"size_header:   421b
+"
+1716409193388,'"----------
+"
+1716409193388,"time_total:  0.013009s
+"
+1716409193388,"TIMING FOR BIG PREPPED ENDPOINT:
+"
+1716409193392,"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+"
+1716409193392,"Dload  Upload   Total   Spent    Left  Speed
+"
+1716409193403,"0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1960k  100 1960k    0     0   168M      0 --:--:-- --:--:-- --:--:--  174M
+"
+1716409193403,"time_namelookup:  0.000599s
+"
+1716409193404,"time_connect:  0.001762s
+"
+1716409193404,"time_appconnect:  0.000000s
+"
+1716409193404,"time_pretransfer:  0.001795s
+"
+1716409193404,"time_redirect:  0.000000s
+"
+1716409193404,"time_starttransfer:  0.004316s
+"
+1716409193404,"size_download: 2007100b
+"
+1716409193404,"size_header:   421b
+"
+1716409193404,'"----------
+"
+1716409193404,"time_total:  0.011384s
+"
+1716409193404,"TIMING FOR SMALL ENDPOINT:
+"
+1716409193407,"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+"
+1716409193407,"Dload  Upload   Total   Spent    Left  Speed
+"
+1716409193412,"0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100    22  100    22    0     0   4478      0 --:--:-- --:--:-- --:--:--  5500
+"
+1716409193412,"time_namelookup:  0.000579s
+"
+1716409193413,"time_connect:  0.001722s
+"
+1716409193413,"time_appconnect:  0.000000s
+"
+1716409193413,"time_pretransfer:  0.001749s
+"
+1716409193413,"time_redirect:  0.000000s
+"
+1716409193413,"time_starttransfer:  0.004883s
+"
+1716409193413,"size_download: 22b
+"
+1716409193413,"size_header:   384b
+"
+1716409193413,'"----------
+"
+1716409193413,"time_total:  0.004912s
+"
+1716409193413,'"-------------------------------
+"
+1716409193413,"Done
+"
+1716409193413,"INIT_REPORT Init Duration: 2616.34 ms	Phase: init	Status: error	Error Type: Runtime.ExitError
+"
